@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} {% endblock %}</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/layout-css.css')}}">
+</head>
+<body>
+    <header>
+        <div class="header-up">
+            <h1 class="logo-blog">purple blog</h1>
+        </div>
+    </header>
+    <nav>
+        <div class="nav-bar">
+            <li>
+                <ul><a href="/">home</a></ul>
+                <ul><a href="/about">about</a></ul>
+                <ul><a href="/blogs">blogs</a></ul>
+                <ul><a href="/contact">contact</a></ul>
+            </li>
+        </div>
+    </nav>
+    <div class="container">
+    {% block body %}
+    {% endblock %}
+    </div>
+
+    <footer>
+        <div class="footer-bar">
+            <p>Cristian. Todos derechos reservados</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,48 @@
+* {
+    background: #F2EBEB;
+    width: 100%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+/* .errorPage, h1, h2, p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+
+
+.errorPage, h1, h2, p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.errorPage h1, .errorPage h2, .errorPage p {
+    width: 100%;
+    height: 20%;
+}
+
+.errorPage h1 {
+    font-size: 200px;
+    color: #793ED1;
+    font-weight: bold;
+}
+
+.errorPage h2 {
+    font-size: 50px;
+    color: #793ED1;
+    font-weight: bold;
+    padding-top: 0%;
+}
+
+.errorPage p {
+    font-size: 30px;
+    color: #793ED1;
+    font-weight: bold;
+    padding-top: 0%;
+}

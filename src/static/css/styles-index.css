@@ -1,0 +1,100 @@
+article {
+    width: 70%;
+    float: left;
+}
+
+.section-blog {
+    background: white;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.section-blog h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.section-blog p {
+    margin-bottom: 5px;
+}
+
+.section-blog a {
+    display: block;
+    width: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: #6C03D1;
+    background: none;
+    border: 2px solid #6C03D1;
+}
+
+aside {
+    width: 30%;
+    height: 100%;
+    float: right;
+    background: white;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+
+.bar-search form {
+    width: 100%;
+    background: white;
+    padding-top: 5px;
+}
+
+.bar-search input {
+    width: 60%;
+    text-transform: uppercase;
+    padding: 5px;
+    font-size: 15px;
+    border: 2px #6C03D1 solid;
+    background: white;
+}
+
+.bar-search button {
+    width: 30%;
+    text-transform: uppercase;
+    padding: 5px;
+    font-size: 15px;
+    background: white;
+    color: #6C03D1;
+    border: #6C03D1 2px solid;
+    font-weight: bold;
+}
+
+.red-social {
+    width: 100%;
+    background: white;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.red-social p {
+    background: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.red-social a {
+    text-decoration: none;
+    background: white;
+}
+
+.red-social img {
+    width: 50px;
+    height: 50px;
+    background: white;
+    display: inline-flex;
+    margin: auto;
+}
