@@ -44,9 +44,9 @@ aside {
     padding: 5px;
 }
 
-
 .bar-search form {
     width: 100%;
+    display: flex;
     background: white;
     padding-top: 5px;
 }
@@ -55,20 +55,27 @@ aside {
     width: 60%;
     text-transform: uppercase;
     padding: 5px;
-    font-size: 15px;
+    font-size: 12px;
     border: 2px #6C03D1 solid;
     background: white;
+    float: left;
+    margin-right: 0;
 }
 
 .bar-search button {
-    width: 30%;
+    width: 40%;
     text-transform: uppercase;
     padding: 5px;
-    font-size: 15px;
+    font-size: 12px;
     background: white;
     color: #6C03D1;
     border: #6C03D1 2px solid;
     font-weight: bold;
+    float: right;
+}
+
+.bar-search button:hover {
+    cursor: pointer;
 }
 
 .red-social {
@@ -89,12 +96,12 @@ aside {
 .red-social a {
     text-decoration: none;
     background: white;
+    display: inline-block;
+    margin: auto;
 }
 
 .red-social img {
     width: 50px;
     height: 50px;
     background: white;
-    display: inline-flex;
-    margin: auto;
 }

@@ -1,5 +1,5 @@
 class DevelopmentConfig():
-    DEBUG=False
+    DEBUG=True
 
 config={
     'development':DevelopmentConfig
